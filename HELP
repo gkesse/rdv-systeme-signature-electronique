@@ -1,0 +1,181 @@
+=================================================
+= v01
+=================================================
+
+npm init react-app readysgse
+cd readysgse
+npm run start
+npm install --save-dev tailwindcss
+npx tailwindcss init
+
+npm install --save react-helmet
+npm install --save @reduxjs/toolkit
+npm install --save react-redux
+npm install --save react-cookie
+npm install --save react-dnd
+npm install --save react-dnd-html5-backend
+npm install --save react-dnd-multi-backend
+npm install --save react-dnd-touch-backend
+
+npm install --save @react-pdf/renderer
+npm install --save react-pdf
+
+npm install --save i18next
+npm install --save i18next-browser-languagedetector
+npm install --save i18next-http-backend
+npm install --save react-i18next
+
+npm install --save parse
+npm install --save react-router-dom
+
+npm install --save-dev @babel/core
+npm install --save-dev @babel/preset-env
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/runtime-corejs2
+npm install --save-dev babel-loader
+npm install --save-dev babel-preset-react-app
+npm install --save-dev @babel/plugin-transform-private-property-in-object
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm install --save-dev @babel/eslint-parser
+
+npm install --save-dev webpack
+npm install --save-dev clean-webpack-plugin
+npm install --save-dev dotenv-webpack
+npm install --save-dev terser-webpack-plugin
+npm install --save-dev webpack-cli
+
+npm install --save-dev css-loader
+npm install --save-dev mini-css-extract-plugin
+npm install --save-dev postcss
+
+npm install --save-dev eslint
+npm install --save-dev eslint-plugin-prettier
+npm install --save-dev eslint-plugin-react
+npm install --save-dev eslint-plugin-json-format
+
+npm install --save-dev dotenv
+npm install --save-dev concurrently
+npm install --save-dev daisyui
+npm install --save-dev fs-extra
+
+sudo apt install eslint
+eslint --init
+npm install -g eslint
+eslint --ext .js
+
+npm init react-app .
+npm cache clean -f
+npm prune
+
+=================================================
+= v02
+=================================================
+
+npm init -y
+npm install --save dotenv
+npm install --save aws-sdk
+
+npm install --save parse
+npm install --save @parse/s3-files-adapter
+npm install --save @parse/fs-files-adapter
+npm install --save parse-dbtool
+npm install --save parse-server
+npm install --save parse-server-api-mail-adapter
+
+npm install --save multer-s3
+npm install --save @parse/s3-files-adapter
+
+npm install --save mailgun.js
+npm install --save nodemailer
+npm install --save parse-server-api-mail-adapter
+
+npm install --save axios
+
+npm install --save-dev eslint
+npm install --save-dev eslint-plugin-prettier
+npm install --save-dev eslint-plugin-react
+npm install --save-dev eslint-plugin-json-format
+
+npm install --save-dev prettier
+npm install --save-dev nodemon
+
+=================================================
+= VSCode Extensions
+=================================================
+
+ESLint
+Error Lens
+Prettier - Code formatter
+Prettier ESLint
+
+=================================================
+= Tutoriels
+=================================================
+
+React
+https://create-react-app.dev/docs/getting-started/
+https://www.youtube.com/watch?v=jSIiuSLqijI
+
+Tailwind CSS
+https://tailwindcss.com/docs/guides/create-react-app
+https://www.youtube.com/watch?v=L3wJe66tlBk
+
+manifeste.json
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json
+
+Webapck React
+https://soat.developpez.com/tutoriels/javascript/packager-son-application-react-avec-webpack/
+
+Png Resize
+https://www.iloveimg.com/resize-image/resize-png
+
+Png Base64
+https://www.base64-image.de/
+
+Png Ico
+https://convertio.co/fr/png-ico/
+
+Webpack Refresh
+https://medium.com/jsjitsu/webpack-%C3%A0-quoi-%C3%A7a-sert-et-comment-sen-servir-a5e4ecee8815
+
+Webpack Fix DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE
+https://www.youtube.com/watch?v=ifSTp9WEHpo
+
+Webpack Getting started
+https://webpack.js.org/guides/getting-started/
+
+React Translation
+https://poyesis.fr/blogs/comment-traduire-son-application-i18n-react/
+
+ESLint Tuto
+https://welovedevs.com/fr/articles/eslint/
+
+ESLint VSCode
+https://www.youtube.com/watch?v=ZuDIXV94Z1w
+
+ESLint no-undef
+https://stackoverflow.com/questions/50894000/eslint-process-is-not-defined
+
+ESLint Format
+https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
+https://stackoverflow.com/questions/48902050/eslint-airbnb-with-4-spaces-for-indent
+
+VSCode Setting Error
+https://stackoverflow.com/questions/77945267/vscode-settings-json-error-incorrect-type-expected-string
+
+Webapck Dashboard
+https://www.alsacreations.com/tuto/lire/1754-debuter-avec-webpack.html
+
+Data Integrity
+https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+
+clean-webpack-plugin
+https://stackoverflow.com/questions/64617228/cleanwebpackplugin-does-not-clean-in-webpack-5
+
+Watching build mode on Create React App
+https://gist.github.com/int128/e0cdec598c5b3db728ff35758abdbafd
+
+AWS Inscription
+https://www.youtube.com/watch?app=desktop&v=lrFf8h0zvqU
+
+=================================================
