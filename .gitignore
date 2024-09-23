@@ -1,3 +1,6 @@
 /**/~*
 /**/node_modules/
 /**/github/
+/**/public/locales/
+/**/public/static/
+/**/.env
