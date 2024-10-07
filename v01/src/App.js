@@ -1,7 +1,11 @@
-import { useEffect, useState } from "react";
+import { lazy, useEffect, useState } from "react";
 import AppLoader from "./module/rdv_loader_app";
 import Login from "./module/rdv_login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { appConfig } from "./module/rdv_app_config";
+import LazyPage from "./module/rdv_lazy_page";
+
+const Signup = lazy(() => import("./module/rdv_signup"));
 
 function App() {
     const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +30,9 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route exact path="/" element={<Login />} />
+                        {appConfig.isEnableSubscription && (
+                            <Route path="/signup" element={<LazyPage Page={Signup} />}/>
+                        )}
                     </Routes>
                 </BrowserRouter>
             )}

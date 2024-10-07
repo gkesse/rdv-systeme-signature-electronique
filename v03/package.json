@@ -1,0 +1,21 @@
+{
+  "name": "readysign",
+  "version": "1.0.0",
+  "description": "Système de gestion de signature électronique",
+  "keywords": [],
+  "author": {
+    "name": "Gerard KESSE",
+    "email": "readysign.contacts@gmail.com",
+    "url": "https://readydev.ovh/home"
+  },
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "parse-server": "^7.3.0"
+  }
+}

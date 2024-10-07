@@ -5,20 +5,20 @@ dotenv.config();
 export const appConfig = {
     appId: process.env.APP_ID || 'readysign',
 
-    useLocal: process.env.USE_LOCAL ? process.env.USE_LOCAL : '',
-    doEndpoint: process.env.DO_ENDPOINT ? process.env.DO_ENDPOINT : '',
+    useLocal: process.env.USE_LOCAL ? process.env.USE_LOCAL.toLowerCase() : 'false',
+    isTesting: process.env.TESTING && process.env.TESTING.toLowerCase() === "true" ? true : false,
 
+    awsEndpoint: process.env.DO_ENDPOINT ? process.env.DO_ENDPOINT : '',
     awsBucket: process.env.DO_SPACE ? process.env.DO_SPACE : '',
     awsBaseUrl: process.env.DO_BASEURL ? process.env.DO_BASEURL : '',
     awsRegion: process.env.DO_REGION ? process.env.DO_REGION : '',
     awsAccessKeyId: process.env.DO_ACCESS_KEY_ID ? process.env.DO_ACCESS_KEY_ID : '',
     awsSecretAccessKey: process.env.DO_SECRET_ACCESS_KEY ? process.env.DO_SECRET_ACCESS_KEY : '',
 
-    smtpEnable: process.env.SMTP_ENABLE && process.env.SMTP_ENABLE === "true" ? true : false,
+    smtpEnable: process.env.SMTP_ENABLE && process.env.SMTP_ENABLE.toLowerCase() === "true" ? true : false,
     smtpHost: process.env.SMTP_HOST ? process.env.SMTP_HOST : '',
     smtpPort: process.env.SMTP_PORT ? process.env.SMTP_PORT : 465,
-    useLocal: process.env.USE_LOCAL ? process.env.USE_LOCAL : '',
-    useLocal: process.env.USE_LOCAL ? process.env.USE_LOCAL : '',
+    useLocal: process.env.USE_LOCAL && process.env.USE_LOCAL.toLowerCase() === "true" ? true : false,
     smtpSecure: process.env.SMTP_PORT && process.env.SMTP_PORT !== '465' ? false : true,
     smtpUserEmail: process.env.SMTP_USER_EMAIL ? process.env.SMTP_USER_EMAIL : '',
     smtpPass: process.env.SMTP_PASS ? process.env.SMTP_PASS : '',
@@ -33,4 +33,12 @@ export const appConfig = {
 
     publicServerURL: process.env.PUBLIC_SERVER_URL || 'http://localhost:8080/app',
     cloudServerUrl: process.env.CLOUD_SERVER_URL || 'http://localhost:8080/app',
+
+    phProjectApiKey: process.env.PH_PROJECT_API_KEY ? process.env.PH_PROJECT_API_KEY : '',
+
+    parseMount: process.env.PARSE_MOUNT || '/app',
+
+    httpPort: process.env.HTTP_PORT || 8080,
+
+    isWindows: process.platform === 'win32',
 };

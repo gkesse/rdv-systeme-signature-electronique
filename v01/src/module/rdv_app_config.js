@@ -4,6 +4,7 @@ export const appConfig = {
     appLogo: AppLogo,
     appId: process.env.REACT_APP_APP_ID ? process.env.REACT_APP_APP_ID : "",
     googleClientId: process.env.REACT_APP_GOOGLE_CLIENT_ID ? process.env.REACT_APP_GOOGLE_CLIENT_ID : "",
+    isEnableSubscription: process.env.REACT_APP_ENABLE_SUBSCRIPTION && process.env.REACT_APP_ENABLE_SUBSCRIPTION?.toLowerCase() === "true" ? true : false,
     settings: [
         {
             role: "contracts_Admin",

@@ -61,9 +61,6 @@ function Login() {
                     ({ ...prev, alertMsg: "" })), 2000);
             }
         }
-
-        console.log("===>|email=" + email);
-        console.log("===>|password=" + password );
     };
 
     const handleChange = (event) => {
@@ -181,6 +178,7 @@ function Login() {
                                             </button>
                                             <button
                                                 className="rdv-btn rdv-btn-accent"
+                                                type="button"
                                                 disabled={state.isLoading}
                                                 onClick={() =>
                                                     navigate(

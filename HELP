@@ -90,6 +90,12 @@ npm install --save nodemailer
 npm install --save parse-server-api-mail-adapter
 
 npm install --save axios
+npm install --save express
+npm install --save cors
+npm install --save posthog-node
+
+npm install --save multer
+npm install --save multer-s3
 
 npm install --save-dev eslint
 npm install --save-dev eslint-plugin-prettier
@@ -98,6 +104,29 @@ npm install --save-dev eslint-plugin-json-format
 
 npm install --save-dev prettier
 npm install --save-dev nodemon
+npm install --save-dev mongodb-runner
+
+nvm install --lts
+npm cache clean -f
+npm ls punycode
+
+=================================================
+= v03
+=================================================
+
+npm init -y
+npm start
+
+npm install --save express
+npm install --save parse-server
+
+http://localhost:1337/parse/health
+
+curl -X POST \
+-H "X-Parse-Application-Id: YOUR_APP_ID" \
+-H "Content-Type: application/json" \
+-d "{}" \
+http://localhost:1337/parse/functions/hello
 
 =================================================
 = VSCode Extensions
@@ -177,5 +206,8 @@ https://gist.github.com/int128/e0cdec598c5b3db728ff35758abdbafd
 
 AWS Inscription
 https://www.youtube.com/watch?app=desktop&v=lrFf8h0zvqU
+
+MongoDB Install Windows
+https://www.youtube.com/watch?v=gB6WLkSrtJk
 
 =================================================

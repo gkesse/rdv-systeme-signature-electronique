@@ -3,4 +3,7 @@
 /**/github/
 /**/public/locales/
 /**/public/static/
+/**/logs/
+/**/package-lock.json
 /**/.env
+
